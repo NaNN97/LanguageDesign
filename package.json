@@ -1,0 +1,26 @@
+{
+  "name": "langd",
+  "version": "0.0.1",
+  "description": "My language",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Daniel Buszta",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaNN97/LanguageDesign.git"
+  },
+  "keywords": [
+    "antl4",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/NaNN97/LanguageDesign/issues"
+  },
+  "homepage": "https://github.com/NaNN97/LanguageDesign#readme",
+  "dependencies": {
+    "antlr4": "^4.9.2"
+  }
+}
