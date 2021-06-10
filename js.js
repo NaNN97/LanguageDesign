@@ -38,17 +38,21 @@ function* lexer(str) {
   }
 
   function isWhitespace(c) {
-    return char === " " || char === "\t"
+    return char === " " || char === "\t";
   }
 
   function whitespace() {
-    let found = null;
+    if (isWhitespace(char)) {
+      next();
+    }else {
+      return null;
+    }
+    
     while (isWhitespace(char)) {
       next();
-      found = true;
     }
 
-    return found;
+    return true;
   }
 
   function eof() {
