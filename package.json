@@ -2,9 +2,9 @@
   "name": "langd",
   "version": "0.0.1",
   "description": "My language",
-  "main": "index.js",
+  "main": "js.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon js.js"
   },
   "author": "Daniel Buszta",
   "license": "ISC",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/NaNN97/LanguageDesign#readme",
   "dependencies": {
-    "antlr4": "^4.9.2"
+    "nodemon": "^2.0.7"
   }
 }
